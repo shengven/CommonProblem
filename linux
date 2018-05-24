@@ -1,0 +1,4 @@
+bash: ls: command not found
+
+应该是环境变量配置出现了问题，解决方法：
+export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin
